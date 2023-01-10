@@ -1,11 +1,11 @@
 <html>
 <body>
 <h1>Embed</h1>
-<iframe id="wwiframe" src="https://ui.uat.upcp.wirewheel.io/100/welcome" width="100%" height="1500px"></iframe>
+<iframe id="wwiframe" src="https://ui.dev.upcp.wirewheel.io/352/welcome" width="100%" height="1500px"></iframe>
 <script type="text/javascript">
   window.WireWheelUPCPConfig = {
-        'wwupcp_apiurl': 'https://api.uat.upcp.wirewheel.io/v2',
-        'wwupcp_apikey': 'eyJicmFuZElkIjoiMkpCUFJxVzk5YmxmeVhCNDY3Unh1eUNvM1dSIiwiY2hhbm5lbElkIjoiMks5NVFYVWpSdHRJY0tSRkNyMmFHdEJpSUF1IiwidGVuYW50SWQiOiI2MmQ2MzE4M2IyNTk5Zjk5ZGY3ZGJmODcifQ==',
+        'wwupcp_apiurl': 'https://api.dev.upcp.wirewheel.io/v2',
+        'wwupcp_apikey': 'eyJicmFuZElkIjoiMkJmQzVkUUNPTWNlamhySDkxSVBLM2RjVTRnIiwiY2hhbm5lbElkIjoiMkY4Q09XcndjTEJMSU1YZ2Y0RnNvOTl1b3JSIiwidGVuYW50SWQiOiI2MjlmN2I1YTFhMDg1M2UxODRkNjhjYTEifQ==',
         'wwupcp_cookie_domain': 'ui.uat.upcp.wirewheel.io',
         'wwupcp_cookie_duration': 365,
         'wwupcp_cmp_default_consents': [
@@ -17,7 +17,7 @@
      };
 </script>
 <script type="text/javascript" src="https://unpkg.com/@wirewheelio/cmp-javascript-sdk@0.8.4/dist/wirewheel-sdk.umd.js"></script>
-<script type="text/javascript" src="https://ui.uat.upcp.wirewheel.io/extensions/upcp-sdk-bridge-1.3.0.min.js"></script>
+<script type="text/javascript" src="https://ui.dev.upcp.wirewheel.io/extensions/upcp-sdk-bridge-1.3.0.min.js"></script>
 <script type="text/javascript">
     // Initializes the Embedded SDK
     const { WireWheelSDK } = window.cmpJavascriptSdk
@@ -27,8 +27,8 @@
 
     WireWheelSDK.registerPrivacyProtocols(
   {
-    apiUrl: 'https://api.uat.upcp.wirewheel.io/v2',
-    apiKey: 'eyJicmFuZElkIjoiMkpCUFJxVzk5YmxmeVhCNDY3Unh1eUNvM1dSIiwiY2hhbm5lbElkIjoiMks5NVFYVWpSdHRJY0tSRkNyMmFHdEJpSUF1IiwidGVuYW50SWQiOiI2MmQ2MzE4M2IyNTk5Zjk5ZGY3ZGJmODcifQ=='
+    apiUrl: 'https://api.dev.upcp.wirewheel.io/v2',
+    apiKey: 'eyJicmFuZElkIjoiMkJmQzVkUUNPTWNlamhySDkxSVBLM2RjVTRnIiwiY2hhbm5lbElkIjoiMkY4Q09XcndjTEJMSU1YZ2Y0RnNvOTl1b3JSIiwidGVuYW50SWQiOiI2MjlmN2I1YTFhMDg1M2UxODRkNjhjYTEifQ=='
   }
 )
 
